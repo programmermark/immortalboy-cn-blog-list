@@ -3,6 +3,7 @@
   "displayName": "immortalboy.cn blog list",
   "description": "immortalboy.cn blog list",
   "version": "0.0.1",
+  "publisher": "zhonghui",
   "engines": {
     "vscode": "^1.72.0"
   },
@@ -20,6 +21,10 @@
         "title": "列出immortalboy.cn所有博客文章"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/programmermark/immortalboy-cn-blog-list"
   },
   "scripts": {
     "lint": "eslint .",

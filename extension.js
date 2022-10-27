@@ -3,6 +3,8 @@
 const vscode = require("vscode");
 const axios = require("axios");
 
+// vscode token: rxkqqq73vwsalxvrov2gppqektilndyevgk4m3intz6dzu57sqoa
+
 /**
  * 获取文章列表
  */
