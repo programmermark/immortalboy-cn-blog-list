@@ -2,7 +2,7 @@
   "name": "immortalboy-cn-blog-list",
   "displayName": "immortalboy.cn blog list",
   "description": "immortalboy.cn blog list",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "zhonghui",
   "engines": {
     "vscode": "^1.72.0"
@@ -29,7 +29,9 @@
   "scripts": {
     "lint": "eslint .",
     "pretest": "pnpm run lint",
-    "test": "node ./test/runTest.js"
+    "test": "node ./test/runTest.js",
+    "package": "vsce package",
+    "publish": "npm run package & vsce publish"
   },
   "devDependencies": {
     "@types/glob": "^8.0.0",
